@@ -32,3 +32,4 @@ replay_pid*
 /dataSources/
 /dataSources.local.xml
 /.idea/
+.idea
