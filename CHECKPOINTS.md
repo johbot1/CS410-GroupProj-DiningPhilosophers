@@ -4,17 +4,17 @@ This document outlines the checkpoints for the Dining Philosophers project
 
 ## 1) Project Core Structure and Initial Implementation
 
-* 1.1) Create a basic project structure with necessary files.
-    * 1.1.1) Create `Philosopher.java` for philosopher behavior.
-    * 1.1.2) Create `Chopstick.java` for chopstick management.
-    * 1.1.3) Create `DiningTable.java` or `Main.java` for overall program control.
-* 1.2) Implement basic thread creation for each philosopher.
-    * 1.2.1) Create a `Philosopher` class that extends `Thread`.
-    * 1.2.2) Create a function in `DiningTable` or `Main` to initialize philosopher threads.
-    * 1.2.3) Verify successful thread creation and start.
+* 1.1) Create a basic project structure with necessary files.✅
+    * 1.1.1) Create `Philosopher.java` for philosopher behavior.✅
+    * 1.1.2) Create `Chopstick.java` for chopstick management.✅
+    * 1.1.3) Create `DiningTable.java` or `Main.java` for overall program control.✅
+* 1.2) Implement basic thread creation for each philosopher.✅
+    * 1.2.1) Create a `Philosopher` class that extends ~~`Thread`~~ `Runnable`.✅
+    * 1.2.2) Create a function in `DiningTable` or `Main` to initialize philosopher threads.✅
+    * 1.2.3) Verify successful thread creation and start.✅
 * 1.3) Define data structures for philosophers and chopsticks.
-    * 1.3.1) Create a `Philosopher` class with necessary attributes.
-    * 1.3.2) Create a `Chopstick` class with necessary attributes.
+    * 1.3.1) Create a `Philosopher` class with necessary attributes.✅
+    * 1.3.2) Create a `Chopstick` class with necessary attributes.✅
     * 1.3.3) Implement any required shared data structures (e.g., an array of chopsticks).
 
 ## 2) Chopstick Management and Basic Eating
