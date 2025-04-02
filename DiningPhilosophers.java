@@ -4,7 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 public class DiningPhilosophers{
     public static void main(String[] args) throws InterruptedException {
-
         int numPhilosophers = 5;
         Philosopher[] philosophers = new Philosopher[numPhilosophers];
         Chopstick[] chopsticks = new Chopstick[numPhilosophers];
